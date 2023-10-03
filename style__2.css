@@ -3,22 +3,23 @@
     padding: 0;
 
 }
-
 #Banner{
-    
     background-image: linear-gradient(rgba(249, 245, 245, 0.196)10%,rgb(251, 251, 251)100%),url(ms_bg.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
 }
 .head{
     padding-top: 10px;
-    width: 300px;
+    width: 100%;
     height: 60px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;   
+}
+.Logo{
+    width:600px;
+    display: flex;
+    margin: 20px;
 }
 .logo{
     background: transparent;
@@ -28,10 +29,22 @@
 #Banner h2{
     padding-top: 10px;
     font-size: 30px;
-    color: rgb(245, 244, 244);
+    color: rgb(255, 255, 255);
 }
 #Banner h2 span{
     color: rgb(165, 45, 45);
+}
+#register{
+    
+    font-size: 2rem;
+    color: rgb(40, 175, 175);
+    margin-top: 35px;
+    margin-right: 150px;
+}
+#register a{
+    color: rgb(226, 41, 41);
+    font-family:'Times New Roman';
+    text-decoration: none;
 }
 .Bannertext{
     text-align: center;
