@@ -35,11 +35,16 @@
     color: rgb(165, 45, 45);
 }
 #register{
-    
     font-size: 2rem;
     color: rgb(40, 175, 175);
     margin-top: 35px;
     margin-right: 150px;
+    display: flex;
+}
+#register img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }
 #register a{
     color: rgb(226, 41, 41);
